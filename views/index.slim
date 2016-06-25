@@ -1,0 +1,7 @@
+h2 My Wheels
+ul.wheels
+
+- wheel_repo = WheelRepo.new
+- wheels = wheel_repo.GetAllWheels
+- wheels.each do |wheel|
+    p = wheel.spin
